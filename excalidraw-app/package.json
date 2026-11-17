@@ -49,6 +49,7 @@
     "start": "yarn && vite",
     "start:production": "yarn build && yarn serve",
     "serve": "npx http-server build -a localhost -p 5001 -o",
-    "build:preview": "yarn build && vite preview --port 5000"
+    "build:preview": "yarn build && vite preview --port 5000",
+    "test:ui-e2e": "node ./tests/ui-e2e-playwright.mjs"
   }
 }

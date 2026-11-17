@@ -8,5 +8,5 @@ export const BRAND = {
   name: `Deloitte ${productName}`,
   description: `Deloitte ${productName} is a collaborative whiteboard for sketching diagrams that have a hand-drawn feel to them.`,
   issuesUrl: "https://github.com/arnavverma2001/cursormystery/issues",
-  themeColor: "#000000",
+  themeColor: "#26890d",
 } as const;

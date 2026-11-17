@@ -1,5 +1,6 @@
 @import "../packages/excalidraw/css/variables.module.scss";
 @import "./branding/theme.scss";
+@import "./branding/polish.scss";
 
 .excalidraw {
   .footer-center {
@@ -12,8 +13,8 @@
   .dropdown-menu-container {
     .dropdown-menu-item {
       &.active-collab {
-        background-color: #ecfdf5;
-        color: #064e3c;
+        background-color: var(--color-primary-light);
+        color: var(--color-on-primary-container);
       }
       &.highlighted {
         color: var(--color-promo);
@@ -28,8 +29,8 @@
   &.theme--dark {
     .dropdown-menu-item {
       &.active-collab {
-        background-color: #064e3c;
-        color: #ecfdf5;
+        background-color: var(--color-surface-primary-container);
+        color: var(--color-on-primary-container);
       }
     }
   }
