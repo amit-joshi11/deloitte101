@@ -32,8 +32,6 @@ export const DeloitteLogo = ({ className }: { className?: string }) => (
 export const BrandLockup = () => (
   <div className="brand-lockup" aria-label={BRAND.name}>
     <DeloitteLogo className="brand-lockup__logo" />
-    <span className="brand-lockup__product excalifont">
-      {BRAND.productName}
-    </span>
+    <span className="brand-lockup__product">{BRAND.productName}</span>
   </div>
 );

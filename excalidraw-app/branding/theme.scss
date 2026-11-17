@@ -3,6 +3,11 @@
 // are portaled to <body>.
 :root .excalidraw {
   --color-deloitte-green: #86bc25;
+  --color-deloitte-blue: #0076a8;
+
+  --ui-font:
+    "Open Sans", Assistant, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif;
 
   --color-primary: #26890d;
   --color-primary-darker: #227b0c;
@@ -14,10 +19,27 @@
   --color-selection: #26890d;
   --color-brand-hover: #237f0c;
   --color-brand-active: #1e6e0a;
+  --color-promo: #26890d;
+  --color-logo-icon: #86bc25;
+  --color-logo-text: #000000;
   --color-surface-high: #eef5e6;
+  --color-surface-mid: #f4f8f0;
+  --color-surface-low: #e8efe2;
   --color-surface-primary-container: #ddedc6;
   --color-on-primary-container: #0f3d05;
   --color-slider-track: #d4eab0;
+  --color-slider-thumb: #26890d;
+  --select-highlight-color: #c5e4a5;
+  --focus-highlight-color: rgba(134, 188, 37, 0.35);
+  --link-color: #0076a8;
+  --link-color-hover: #005f87;
+  --link-color-active: #004b6b;
+  --color-success-text: #1e6e0a;
+  --color-success-contrast: #26890d;
+  --color-success-contrast-hover: #2d9b10;
+  --color-success-contrast-active: #227b0c;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.625rem;
 
   &.theme--dark {
     --color-primary: #86bc25;
@@ -30,9 +52,24 @@
     --color-selection: #86bc25;
     --color-brand-hover: #9ccb47;
     --color-brand-active: #b0d86a;
+    --color-promo: #86bc25;
+    --color-logo-icon: #86bc25;
+    --color-logo-text: #ffffff;
     --color-surface-high: #2e3329;
+    --color-surface-mid: #252a22;
+    --color-surface-low: #1e221c;
     --color-surface-primary-container: #3e5121;
     --color-on-primary-container: #e2f0cb;
     --color-slider-track: #4b5e2c;
+    --color-slider-thumb: #9ccb47;
+    --select-highlight-color: #4b5e2c;
+    --focus-highlight-color: rgba(134, 188, 37, 0.45);
+    --link-color: #6ec4e8;
+    --link-color-hover: #8fd4f0;
+    --link-color-active: #a8d9f2;
+    --color-success-text: #c5e89a;
+    --color-success-contrast: #86bc25;
+    --color-success-contrast-hover: #9ccb47;
+    --color-success-contrast-active: #95c83a;
   }
 }
